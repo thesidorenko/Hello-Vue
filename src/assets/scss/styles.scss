@@ -1,0 +1,39 @@
+@import "variables";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "@fortawesome/fontawesome-free/scss/fontawesome";
+@import "@fortawesome/fontawesome-free/scss/solid";
+
+body {
+  background-color: #eee;
+}
+
+.card {
+  background-color: #fff;
+  border: none
+}
+
+.form-color {
+  background-color: #fafafa;
+}
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #35b69f;
+  outline: 0;
+  box-shadow: none;
+}
+
+.comment {
+  &__name {
+    font-size: 18px;
+  }
+
+  &__date {
+    font-size: 14px;
+  }
+
+  &__text {
+    font-size: 16px;
+  }
+}
